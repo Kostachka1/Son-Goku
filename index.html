@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сон Гоку и его формы</title>
+    <style>
+        /* Основной стиль страницы */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        /* Градиентный фон с анимацией */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #ff4500, #0057e7, #ff4500);
+            background-size: 300% 300%;
+            animation: gradientAnimation 8s ease infinite;
+            z-index: -1;
+        }
+
+        /* Анимация градиента */
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #ff4500;
+            color: white;
+        }
+        a {
+            color: #ff4500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .description {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Сон Гоку и его Формы</h1>
+        <p class="description">Сон Гоку прошёл через множество трансформаций, каждую из которых отличает уникальная сила и способности.</p>
+
+        <!-- Таблица силы -->
+        <h2>Таблица силы Гоку</h2>
+        <table>
+            <tr>
+                <th>Форма</th>
+                <th>Ссылка на изображение</th>
+                <th>Описание</th>
+                <th>Уровень силы (в условных единицах)</th>
+            </tr>
+            <tr>
+                <td>Обычная форма</td>
+                <td><a href="https://cdn.wallpaperjam.com/5419a8516c3b1ecb05fb727b697089b791b2dd3d/son-goku-dragon-ball-z.png" target="_blank">Смотреть</a></td>
+                <td>Базовая форма Гоку без трансформаций.</td>
+                <td>10,000</td>
+            </tr>
+            <tr>
+                <td>Супер Сайян</td>
+                <td><a href="https://www.seekpng.com/png/full/32-329990_goku-super-saiyan-aura-by-bardocksonic-on-deviantart.png" target="_blank">Смотреть</a></td>
+                <td>Первая трансформация, которая увеличивает силу Гоку в 50 раз.</td>
+                <td>500,000</td>
+            </tr>
+            <tr>
+                <td>Бог-Супер Сайян</td>
+                <td><a href="https://kartinki.pics/uploads/posts/2022-12/1669948479_4-kartinkin-net-p-goku-art-krasivo-6.jpg" target="_blank">Смотреть</a></td>
+                <td>Форма, полученная от силы богов. Значительно увеличивает его мощь и скорость.</td>
+                <td>3,000,000</td>
+            </tr>
+            <tr>
+                <td>Ультра Инстинкт</td>
+                <td><a href="https://kartinki.pics/uploads/posts/2022-12/1669948407_1-kartinkin-net-p-goku-art-krasivo-2.jpg" target="_blank">Смотреть</a></td>
+                <td>Форма, в которой Гоку автоматически уклоняется и атакует, не задумываясь.</td>
+                <td>10,000,000</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
